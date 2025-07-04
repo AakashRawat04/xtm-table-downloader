@@ -12,7 +12,7 @@ A Chrome extension that adds a convenient download button to XTM project tables,
 
 ## How to Use
 
-### Option 1: Install from Chrome Web Store (Recommended)
+### Option 1: Install from Chrome Web Store (NOT YET AVAILABLE)
 1. Install the extension from the Chrome Web Store
 2. Navigate to your XTM project management interface
 3. Go to the projects list page
