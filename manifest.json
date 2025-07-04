@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "XTM Table Downloader",
+  "version": "1.0.0",
+  "description": "Download XTM project tables as CSV files with a single click. Perfect for project managers and translators working with XTM Cloud.",
+  "author": "Your Name",
+  "homepage_url": "https://github.com/yourusername/xtm-table-downloader",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://api-test.xtm-intl.com/*",
+    "https://*.xtm-intl.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://api-test.xtm-intl.com/project-manager-gui/projects-pages.action*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icons/icon100.png"
+  }
+}
