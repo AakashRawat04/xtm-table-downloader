@@ -62,6 +62,7 @@ If you want to install this extension directly from the source code:
 
 - `https://api-test.xtm-intl.com/*`
 - `https://*.xtm-intl.com/*`
+- `https://*.xtm.cloud/*`
 
 ## Privacy
 
