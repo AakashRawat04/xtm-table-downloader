@@ -16,7 +16,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://api-test.xtm-intl.com/project-manager-gui/projects-pages.action*"
+        "https://api-test.xtm-intl.com/project-manager-gui/projects-pages.action*",
+        "https://pcl1.xtm.cloud/project-manager-gui/projects-pages.action*"
       ],
       "js": [
         "content.js"
