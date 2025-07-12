@@ -1,6 +1,7 @@
 # XTM Table Downloader
 
 A Chrome extension that adds a convenient download button to XTM project tables, allowing you to export project data as CSV files with a single click.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/de3ba760-094c-4fba-9f4c-467042d31ae7" />
 
 ## Features
 
