@@ -11,7 +11,8 @@
   ],
   "host_permissions": [
     "https://api-test.xtm-intl.com/*",
-    "https://*.xtm-intl.com/*"
+    "https://*.xtm-intl.com/*",
+    "https://*.xtm.cloud/*",
   ],
   "content_scripts": [
     {
